@@ -1,8 +1,6 @@
 <link href="./design.css" type="text/css" rel ="stylesheet">
 
 
-
-
 <img class="header" src="./googlelogo.png" alt="googlelogo" />
 
 
@@ -10,22 +8,13 @@
 
 <input class="googlesearchbar" type="text">
 
+<div class="btn-group"> 
+    <!-- create a button subgroup -->
+    <button>Search</button>
+    <button>I am feeling lucky</button>  
+</div> 
+
 </form>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 <style>
@@ -49,14 +38,28 @@ input.googlesearchbar {
     /* resize and curve edges*/
     margin-top: 20px;
     /* shift down a little */
+    font-size: 20px;
+    /* change font size of the text */
+}
+
+
+.btn-group {
+    /* for the button group */
+    text-align: center;
+
 }
 
 button {
-    border-radius: 10px;
+    padding: 10px 24px; /* Some padding */
+    cursor: pointer; /* Pointer/hand icon */
+    /* center text box*/
+    block-size: 32.5px;
+    border-radius: 20px;
     /* resize and curve edges*/
     background:lightgray;
     /* change color */
-    
+    margin-top: 5px;
+    /* shift down a little */
 }
 
 </style>
