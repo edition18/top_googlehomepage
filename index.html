@@ -1,5 +1,9 @@
 <link href="./design.css" type="text/css" rel ="stylesheet">
 
+<div class="topright">
+        <a>Gmail</a>
+        <a>Images</a>
+</div>
 
 <img class="header" src="./googlelogo.png" alt="googlelogo" />
 
@@ -24,7 +28,8 @@ img.header {
     margin-right: auto; 
 
     /* center images*/
-    
+    margin-top: 50px;
+    /* shift down a little */
 }
 
 input.googlesearchbar {
@@ -60,6 +65,15 @@ button {
     /* change color */
     margin-top: 5px;
     /* shift down a little */
+}
+
+.topright {
+    cursor: pointer;
+    text-align: right;
+}
+
+a {
+    display: inline-block
 }
 
 </style>
